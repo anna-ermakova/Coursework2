@@ -1,4 +1,4 @@
-public class WrongInputException extends Exception{
+public class WrongInputException extends Exception {
     public WrongInputException() {
     }
 

@@ -36,6 +36,14 @@ public abstract class Task {
         return firstDate;
     }
 
+    public boolean isArchived() {
+        return archived;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }

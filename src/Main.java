@@ -20,7 +20,7 @@ public class Main {
                             MyCalendar.deleteTask(scanner);
                             break;
                         case 4:
-                            MyCalendar.getTaskByDay(scanner);
+                            MyCalendar.getTasksByDay(scanner);
                             break;
                         case 5:
                             MyCalendar.printArchivedTasks();
